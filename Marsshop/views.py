@@ -100,4 +100,3 @@ class GetOrderView(APIView):
             return Response(serializers.data)
         else:
             return Response("Bunday user mavjud emas")
-        
